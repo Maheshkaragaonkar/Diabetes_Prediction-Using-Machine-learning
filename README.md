@@ -52,60 +52,19 @@ The project follows these key steps:
 
 ### Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/shsarv/Machine-learning-projects.git
-   cd diabetes-prediction-[End-2-END]/Diabetes-prediction-deployed
-   ```
-
-2. Install the required dependencies:
+1. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the Flask app:
+2. Run the Flask app:
    ```bash
    python app.py
    ```
 
-4. Open your browser and go to `http://localhost:5000` to access the web app.
+3. Open your browser and go to `http://localhost:5000` to access the web app.
 
-### Deployment on Heroku
 
-To deploy the app on Heroku, follow these steps:
-
-1. Login to Heroku:
-   ```bash
-   heroku login
-   ```
-
-2. Create a new Heroku app:
-   ```bash
-   heroku create your-app-name
-   ```
-
-3. Push your code to Heroku:
-   ```bash
-   git push heroku main
-   ```
-
-4. Open the app in your browser:
-   ```bash
-   heroku open
-   ```
-
-## Future Enhancements
-
-- Add more advanced machine learning models for improved prediction accuracy.
-- Implement user authentication for a more personalized experience.
-- Improve UI/UX for better usability.
-- Integrate more health-related data for broader insights.
-
-## Contributing
-
-Feel free to contribute by submitting issues or pull requests. For major changes, please open an issue first to discuss what you'd like to change.
-
-## Acknowledgments
 
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 - [Flask Documentation](https://flask.palletsprojects.com/)
